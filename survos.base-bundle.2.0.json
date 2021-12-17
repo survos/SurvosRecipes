@@ -23,13 +23,18 @@
         "config/routes/survos_base.yaml": {
           "contents": [
             "survos_base:",
-            "    encode: true",
-            ""
+            "    theme: umbrella",
+            "twig:",
+            "    globals:",
+            "       theme: umbrella:",
+            "    paths:",
+            "       'vendor/survos/base-bundle/src/Resources/views/adminlte': 'theme'"
           ],
           "executable": false
         }
       },
-      "ref": "7405f3af1312d1f9121afed4dddef636c6c7ff00"
+      "ref": "7405f3af1312d1f9121afed4dddef636c6c7ff01"
     }
   }
 }
+
