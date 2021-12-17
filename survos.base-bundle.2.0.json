@@ -1,0 +1,35 @@
+{
+  "manifests": {
+    "survos/base-bundle": {
+      "manifest": {
+        "bundles": {
+          "Survos\\BaseBundle\\SurvosBaseBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/survos_base.yaml": {
+          "contents": [
+            "survos_base:",
+            "    encode: true",
+            ""
+          ],
+          "executable": false
+        },
+        "config/routes/survos_base.yaml": {
+          "contents": [
+            "survos_base:",
+            "    encode: true",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "7405f3af1312d1f9121afed4dddef636c6c7ff00"
+    }
+  }
+}
