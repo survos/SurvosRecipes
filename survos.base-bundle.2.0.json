@@ -15,25 +15,24 @@
         "config/packages/survos_base.yaml": {
           "contents": [
             "survos_base:",
-            "    encode: true",
+            "    theme: umbrella",
+            "twig:",
+            "    globals:",
+            "       theme: umbrella:",
+            "    paths:",
+            "       'vendor/survos/base-bundle/src/Resources/views/adminlte': 'theme'",
             ""
           ],
           "executable": false
         },
         "config/routes/survos_base.yaml": {
           "contents": [
-            "survos_base:",
-            "    theme: umbrella",
-            "twig:",
-            "    globals:",
-            "       theme: umbrella:",
-            "    paths:",
-            "       'vendor/survos/base-bundle/src/Resources/views/adminlte': 'theme'"
+            "survos_landing: {path: /landing, controller: 'Survos\\BaseBundle\\Controller\\LandingController::landing'}"
           ],
           "executable": false
         }
       },
-      "ref": "7405f3af1312d1f9121afed4dddef636c6c7ff01"
+      "ref": "7405f3af1312d1f9121afed4dddef636c6c7ff02"
     }
   }
 }
