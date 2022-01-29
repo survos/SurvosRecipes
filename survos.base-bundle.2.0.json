@@ -18,7 +18,7 @@
             "    theme: umbrella",
             "twig:",
             "    globals:",
-            "       theme: umbrella:",
+            "       theme: umbrella",
             "    paths:",
             "       'vendor/survos/base-bundle/src/Resources/views/adminlte': 'theme'",
             ""
@@ -27,7 +27,9 @@
         },
         "config/routes/survos_base.yaml": {
           "contents": [
-            "survos_landing: {path: /landing, controller: 'Survos\\BaseBundle\\Controller\\LandingController::landing'}"
+            "survos_landing: {path: /landing, controller: 'Survos\\BaseBundle\\Controller\\LandingController::landing'}",
+            "app_profile: {path: /landing, controller: 'Survos\\BaseBundle\\Controller\\LandingController::landing'}",
+            "app_logout: {path: /landing, controller: 'Survos\\BaseBundle\\Controller\\LandingController::landing'}"
           ],
           "executable": false
         }
