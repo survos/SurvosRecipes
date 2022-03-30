@@ -1,7 +1,7 @@
 {
   "recipes": {
     "survos/base-bundle": [
-      "2.0"
+      "2.3"
     ]
   },
   "branch": "master",
