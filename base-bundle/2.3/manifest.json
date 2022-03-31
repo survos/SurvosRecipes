@@ -5,7 +5,5 @@
     "copy-from-recipe": {
         "config/": "%CONFIG_DIR%/",
         "src/": "%SRC_DIR%/"
-    },
-    "ref": "544af8a0e687ccea22d5038b2a39030b079e0c3b"
-
+    }
 }
