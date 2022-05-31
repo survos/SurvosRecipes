@@ -16,7 +16,7 @@
           "contents": [
             "survos_barcode:",
             "    foregroundColor: black",
-            "    width: 3",
+            "    widthFactor: 3",
             "    height: 40",
             ""
           ],
