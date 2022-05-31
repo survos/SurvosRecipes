@@ -2,6 +2,9 @@
   "recipes": {
     "survos/base-bundle": [
       "2.0"
+    ],
+    "survos/barcode-bundle": [
+      "1.0"
     ]
   },
   "branch": "master",
