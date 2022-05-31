@@ -15,7 +15,10 @@
         "config/packages/survos_barcode.yaml": {
           "contents": [
             "survos_barcode:",
-            "    foregroundColor: orange"
+            "    foregroundColor: black",
+            "    width: 3",
+            "    height: 40",
+            ""
           ],
           "executable": false
         }
