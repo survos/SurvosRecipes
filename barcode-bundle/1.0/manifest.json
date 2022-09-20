@@ -1,9 +1,0 @@
-{
-    "bundles": {
-        "Survos\\BarcodeBundle\\SurvosBarcodeBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}
-
